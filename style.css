@@ -1,5 +1,6 @@
 body {
   background-color: cornsilk;
+  color: midnightblue;
 }
 
 h1 {
@@ -11,13 +12,32 @@ h2 {
   color: midnightblue;
 }
 
-hr { display: block; 
+h3 {
+  color: midnightblue;
+}
+
+h4 {
+  color: midnightblue;
+}
+
+h5 {
+  color: midnightblue;
+}
+
+h6 {
+  color: midnightblue;
+}
+
+/*
+hr { 
+  display: block; 
   height: 1px;
   border: 0; 
-  border-top: 1px solid darkgrey;
+  border-top: 1px solid black;
   margin: 1em 0;
   padding: 0; 
 }
+*/
 
 /* NavBar */
 @media (max-width: 640px) {
@@ -27,21 +47,21 @@ hr { display: block;
 
 
 
-.navbar-brand {padding: 0;}
+.navbar-brand {padding: 20;}
 
 .container-fluid {
   padding-right: 50px;
   padding-left: 50px;
 }
 .col-lg-4 {
-    background: lightsalmon;
+    background: none;
   }
 .col-lg-8 {
-    background: lightsalmon;  
+    background: none;  
   }
 .col-4 {
-    background: lightsalmon;
+    background: none;
 }
 .col-12{
-    background:lightsalmon;
+    background:none;
 }
