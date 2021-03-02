@@ -1,0 +1,47 @@
+body {
+  background-color: cornsilk;
+}
+
+h1 {
+  color: midnightblue;
+  text-align: center;
+}
+
+h2 {
+  color: midnightblue;
+}
+
+hr { display: block; 
+  height: 1px;
+  border: 0; 
+  border-top: 1px solid darkgrey;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+/* NavBar */
+@media (max-width: 640px) {
+.navbar{
+  background-color: slategray  }
+}
+
+
+
+.navbar-brand {padding: 0;}
+
+.container-fluid {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.col-lg-4 {
+    background: lightsalmon;
+  }
+.col-lg-8 {
+    background: lightsalmon;  
+  }
+.col-4 {
+    background: lightsalmon;
+}
+.col-12{
+    background:lightsalmon;
+}
