@@ -28,7 +28,7 @@ h6 {
   color: midnightblue;
 }
 
-/*
+
 hr { 
   display: block; 
   height: 1px;
@@ -37,7 +37,7 @@ hr {
   margin: 1em 0;
   padding: 0; 
 }
-*/
+
 
 /* NavBar */
 @media (max-width: 640px) {
@@ -50,8 +50,8 @@ hr {
 .navbar-brand {padding: 20;}
 
 .container-fluid {
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .col-lg-4 {
     background: none;
@@ -64,4 +64,15 @@ hr {
 }
 .col-12{
     background:none;
+}
+
+img:hover {
+
+  border: 2px solid red;
+
+}
+
+#left-main {
+  height: 400px;
+  width: 45%;
 }
